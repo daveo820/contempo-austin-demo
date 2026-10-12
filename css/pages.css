@@ -67,7 +67,7 @@ section{padding:clamp(3.5rem,8vw,7rem) 0}
 @media (max-width:800px){.ct-grid{grid-template-columns:1fr}}
 .foot{background:var(--charcoal);color:#cfc9bf;padding:3.5rem 0 1.5rem;overflow:hidden}
 .foot a{color:#fff}
-.foot-mast{font:500 clamp(2.6rem,15vw,14rem)/.85 var(--display);color:#2d3033;margin:0 0 2rem;max-width:none;white-space:nowrap}
+.foot-mast{font:500 clamp(2.6rem,15vw,14rem)/.85 var(--display);color:#73787e;margin:0 0 2rem;max-width:none;white-space:nowrap}
 .foot-mast .o{border-color:var(--copper)}
 .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
 .foot-call{font:500 clamp(1.8rem,3.5vw,2.6rem) var(--display)}.foot-call a{text-decoration:none}
