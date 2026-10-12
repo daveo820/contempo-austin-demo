@@ -12,11 +12,11 @@ CFG.update(base=BASE,name='Contempo Austin',theme='#1c1e20',org=ORG,
  icon="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231c1e20'/%3E%3Ccircle cx='16' cy='16' r='8' stroke='%23b5653a' stroke-width='2.5' fill='none'/%3E%3C/svg%3E",
  bar='Not the official Contempo Austin site. Photos and project text come from Contempo&rsquo;s current Wix site and are used for this pitch only.',
  nav=[('homes.html','Homes'),('approach.html','Approach'),('contact.html','Contact')],
- mark='<a class="mark" href="index.html" aria-label="Contempo Austin home"><span class="wordmark">C'+O+'ntemp'+O+'</span><small>Austin</small></a>',
+ mark='<a class="mark" href="index.html"><span class="wordmark">C'+O+'ntemp'+O+'</span><small>Austin</small></a>',
  cta='<a class="btn" href="contact.html">Start a home</a>',
  foot=f'''<footer class="foot"><div class="wrap">
-<p class="foot-mast">C{O}ntemp{O}</p>
-<div class="foot-grid"><div><p class="kicker" style="color:var(--copper)">Talk to Khamla</p><p class="foot-call"><a href="tel:{TEL}">{TEL_H}</a></p></div>
+<p class="foot-mast" aria-hidden="true">C{O}ntemp{O}</p>
+<div class="foot-grid"><div><p class="kicker" style="color:#e3a27a">Talk to Khamla</p><p class="foot-call"><a href="tel:{TEL}">{TEL_H}</a></p></div>
 <address>Contempo Austin<br>1409 Allen Road<br>Austin, Texas 78746</address>
 <ul><li><a href="homes.html">Finished homes</a></li><li><a href="homes.html#in-progress">In progress</a></li><li><a href="approach.html">Approach</a></li><li><a href="contact.html">Contact</a></li></ul></div>
 <div class="foot-row"><span>Luxury homes, built in Austin, Texas.</span><span>Concept by <a href="https://luminarch.pro">LuminArch</a></span></div></div></footer>''')
@@ -43,7 +43,7 @@ page('index.html','Contempo Austin | Luxury Custom Homes in Westlake and Austin'
 
 <section class="bohn"><div class="wrap bh-grid">
  <figure class="bh-circle rv">{img('round-door.webp','The round doorway at Bohn House',sizes='(max-width:900px) 80vw, 40vw')}</figure>
- <div class="rv"><p class="kicker" style="color:var(--copper)">{O} Renovation &middot; Bohn House</p><h2>Designed in 1937 after <em>Lost Horizon.</em> Renovated by Contempo in 2013.</h2>
+ <div class="rv"><p class="kicker" style="color:#e3a27a">{O} Renovation &middot; Bohn House</p><h2>Designed in 1937 after <em>Lost Horizon.</em> Renovated by Contempo in 2013.</h2>
  <p>A home based on the science fiction film, completely renovated so it reads as modern Austin without losing its original soul and history.</p></div>
 </div></section>
 
